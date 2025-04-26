@@ -20,6 +20,7 @@ public class Bullet : MonoBehaviour
     {
         // Düşmana çarparsa hasar ver
         EnemyHealth enemy = hitInfo.GetComponent<EnemyHealth>();
+    
         if (enemy != null)
         {
             enemy.TakeDamage(damage);
