@@ -31,7 +31,7 @@ public class Player_Movement : MonoBehaviour
         animator.SetBool("IsGrounded", isGrounded);
 
             // BURAYA EKLE!
-        Debug.Log("IsGrounded: " + isGrounded);
+      //  Debug.Log("IsGrounded: " + isGrounded);
 
         animator.SetFloat("Speed", Mathf.Abs(horizontal));
 
