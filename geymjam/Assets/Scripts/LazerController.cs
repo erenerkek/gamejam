@@ -18,10 +18,16 @@ public class LaserProjectile : MonoBehaviour
      private void OnTriggerEnter2D(Collider2D collision)
     {
 
-        if (collision.CompareTag("Player"))
+       if (collision.CompareTag("Player"))
         {
-            Debug.Log("player hasasr aldı");
-            Destroy(gameObject);
+            // Player'a çarptığında TakeDamage fonksiyonunu çağır
+            CharacterController2D playerController = collision.GetComponent<CharacterController2D>();
+            if (playerController != null)
+            {
+                playerController.TakeDamage(10); // Lazer 10 hasar versin, isteğe göre değiştirebilirsin
+                Debug.Log("Player hasar aldı");
+            }
+            Destroy(gameObject); // Lazer yok olsun
         }
         // Eğer lazer, "Ground" veya "Player" tagine sahip bir nesneye çarparsa
         if( collision.CompareTag("Ground"))
