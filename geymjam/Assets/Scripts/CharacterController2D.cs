@@ -19,6 +19,9 @@ public class CharacterController2D : MonoBehaviour
     private bool m_FacingRight = true;  // For determining which way the player is currently facing.
     private Vector3 m_Velocity = Vector3.zero;
 
+     public int maxHealth = 100;
+    private int currentHealth;
+
     [Header("Events")]
     [Space]
 
@@ -143,5 +146,27 @@ public class CharacterController2D : MonoBehaviour
         Vector3 theScale = transform.localScale;
         theScale.x *= -1;
         transform.localScale = theScale;
+    }
+
+
+ // Yeni: TakeDamage fonksiyonu
+    public void TakeDamage(int damageAmount)
+    {
+        currentHealth -= damageAmount;
+        Debug.Log("Player Health: " + currentHealth);
+        if (currentHealth <= 0)
+        {
+            Debug.Log("Player is dead!");
+            // Burada karakterin ölmesiyle ilgili işlemleri yapabilirsin
+        }
+    }
+
+    // Yeni: Spike ile çarpışma tespiti
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Spike"))  // Spike tag'ine sahip objeyle çarpışma
+        {
+            TakeDamage(20);  // Spike'a çarptığında 20 can kaybet
+        }
     }
 }
