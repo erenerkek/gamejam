@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -95,7 +95,1477 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 335
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef0723ec3539a674480647da1fd0f7fd
+      internalID: 576612800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_1
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 335
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7270547adbafba54eb6778024f467df2
+      internalID: 1910584836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_2
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 335
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ad7fdc04c2f5e40bc0ca0ddfb48f38
+      internalID: -608016274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_3
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 335
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3e0e09d23d69044aab68185531cefeb
+      internalID: -1779140782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_4
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 335
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476a1472fd5da96428dab9bf4977f8f6
+      internalID: -987626035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_5
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 335
+        width: 44
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5bbf79eb48d574cb2fd3ca13f59a8e
+      internalID: -601029435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_6
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 345
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a13e7da057f8aa0488dd77aefc998381
+      internalID: 1569397784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_7
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 346
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819eda8324cf8ff4590bd6418b586269
+      internalID: -1897331645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_8
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 347
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6b0273d0e9ed940b175de229c6006a
+      internalID: 2074531108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_9
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 347
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db02dcf6e69e65d48afd7ae24a2a9ff0
+      internalID: -2026027037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_10
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 346
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6595c6504e2e6e44685c7246d7e8e9df
+      internalID: -84914919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_11
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 345
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e060a9b00086c2479ff32fdfedefc58
+      internalID: -1130785828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_12
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 343
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b44c510d173704f8212b33da17f55e
+      internalID: -225259624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_13
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 345
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8adaf154afbaf324284cb3be808b2935
+      internalID: -1186661984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_14
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 276
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb93e3531f30d547887bfb656207874
+      internalID: 1419149978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_15
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 276
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a2fddd94a74d349b213ab86fe6eaa8
+      internalID: -1555017317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_16
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 276
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71bf655ccda69d9438bcdf7b18f95c09
+      internalID: 205776105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_17
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 276
+        width: 39
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dfd2ef7babad3c4a99f719182883e97
+      internalID: 1027283075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_18
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 276
+        width: 39
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f7043cc3b8f0574abea7f982b6e287e
+      internalID: -698077749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_19
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 276
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34abf02dbc9be54f8f7df798299b227
+      internalID: -1213246878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_20
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 155
+        width: 32
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d3f0f42593c484c86cf053681c951a
+      internalID: -928381293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_21
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 283
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f3cf40bac788864288e86f1342c8b57
+      internalID: 1585612889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_22
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 285
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af120d0284e1c3345820d20d131d4a46
+      internalID: -668228230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_23
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 287
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f0be2e1c06e0a47848af8727afdc6f
+      internalID: -415802024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_24
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 287
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a60bd79c188c45f4aacb784a0436e4ec
+      internalID: -54485239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_25
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 285
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56d38d58b68f27443b7e55caaf38da3b
+      internalID: 344880455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_26
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 283
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c9c7241af8ad69498342533c0821ec7
+      internalID: 1186695321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_27
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 159
+        width: 32
+        height: 88
+      alignment: 9
+      pivot: {x: 0.48545504, y: 0.75916237}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c686f1ae15c8dea4b90908093179b790
+      internalID: -1871791047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_28
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 159
+        width: 34
+        height: 88
+      alignment: 9
+      pivot: {x: 0.48631084, y: 0.7538733}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b4004cb54dd8f4b96ecdd2d835f702
+      internalID: -1696143526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_29
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 159
+        width: 36
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7381292}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7140044499395c54c9d3f36e93aea784
+      internalID: 2054325287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_30
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 159
+        width: 36
+        height: 88
+      alignment: 9
+      pivot: {x: 0.49999958, y: 0.74329513}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 454822a5dc1e414409b9c634bbf10b09
+      internalID: 1394911386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_31
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 159
+        width: 34
+        height: 88
+      alignment: 9
+      pivot: {x: 0.52737695, y: 0.7274279}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81bbffc62c4bf14cb82aebeebcdb2a7
+      internalID: -1582274366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_32
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 159
+        width: 35
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4867013, y: 0.7651894}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 845456c2b61a15d4399121d4cacdca77
+      internalID: 1750104264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_33
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 159
+        width: 36
+        height: 82
+      alignment: 9
+      pivot: {x: 0.5129284, y: 0.76109725}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c41f6b8a23f51a646a3a9234f645ea31
+      internalID: -1181367905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_34
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 190
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1ecb62f22d5d4341a5b6cd8f386e3bb
+      internalID: -207912025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_35
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 190
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e21e5e82625c94aae316915c276828
+      internalID: 243428873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_36
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 190
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f6ea9f3b1501f49810926aaf1a915b
+      internalID: 545355987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_37
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 190
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4795f9528c4ee234d899c37e8cb21935
+      internalID: -243675979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_38
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 138
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 513949ad6d49a2c47896da9f0d8f606b
+      internalID: 677987644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_39
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 137
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 884f150a7ae1f3541853cdacd8f41522
+      internalID: 1944945047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_40
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 136
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628cf46e778f3094283dfe94b127633c
+      internalID: 1206436480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_41
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 138
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd2393bbedd9c54599207eebc2dfe89
+      internalID: -2014739447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_42
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 138
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01dc5f7699fa6e243b82f2f86808cfac
+      internalID: 1163162184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_43
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 100
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea660e3fba469848a4593efcb76f2eb
+      internalID: 1708289642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_44
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 100
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94348465efd4d354da0f24fc6b13447a
+      internalID: 1151346508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_45
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 100
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18418b5f7f1b5e24d8d5b4ae0d17baa2
+      internalID: 1166319459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_46
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 100
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5940ef6eb0c675b40878bcbe32e524ba
+      internalID: -2139310199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_47
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 100
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f11a657fdfbcb1044a6d2914ef47dac6
+      internalID: -1942393356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_48
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 123
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e0f5be994c3204d9f26b02ab5e6569
+      internalID: 2046758607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_49
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 98
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b22d14d1535c0a34ab04f20f62a385a3
+      internalID: 2005414510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_50
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 98
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e751a301b3780419a443a4ee89d112
+      internalID: 1917827074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_51
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 112
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60148048d55307f42b963014e59e5fc0
+      internalID: -303139873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_52
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 97
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58bf3f9419873204d8648e5a2c19e53d
+      internalID: -2034332613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_53
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 97
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103f0f23a74160644ad36dbb5ad4cf9e
+      internalID: 1545269446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_54
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 97
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7d23ff526d63e446a5fd44efb0242a6
+      internalID: 913652140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_55
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 97
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f7451f47d35dce4c8a067978235de1a
+      internalID: 1500091245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_56
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 94
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0fcdb7e538ee374ea3f55b1fd5b77c1
+      internalID: 800164266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_57
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 96
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38101b9fe0f695c46a5ea4c592c4080b
+      internalID: -870236610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_58
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 111
+        width: 28
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecbb4c47372f8fc4f8a9fbcc5a5e8993
+      internalID: -2080737197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_59
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 100
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c3f0f627740584f9e6dde6d82f73b9
+      internalID: 161362271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_60
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 97
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 967321e1acec00c4ca31f55b04f17469
+      internalID: 1654465395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_61
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 97
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f730f95b3d7d6a4b9e8a9a31d5cff7a
+      internalID: 484629866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_62
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 40
+        width: 43
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2470c94a86295d0438fe7f51a8b8cadd
+      internalID: 630159231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_63
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 40
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f60972f31db6e6449e3c3d361dc16d9
+      internalID: -1653344716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_64
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 40
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7263b1cd0e37bb24ebeb1326b50f4bba
+      internalID: 346491830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_65
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 40
+        width: 43
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaaae22b22972104a888c242f6552945
+      internalID: 1586975865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_66
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 40
+        width: 44
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6022a93b157f54d98a9d753e571bee
+      internalID: -1635487552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_67
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 40
+        width: 44
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d543bea7c112e0142892e0865333d1ce
+      internalID: -217820110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_68
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 40
+        width: 44
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84a6d49f3c2cfb04ea9d834b12d03c39
+      internalID: 750971116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Residential-Area-Tileset-Pixel-Art3_pixian_ai_69
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 40
+        width: 46
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaa22cfa0233b8149af718f9bb2b8b1f
+      internalID: -176203312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +1576,77 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_0: 576612800
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_1: 1910584836
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_10: -84914919
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_11: -1130785828
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_12: -225259624
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_13: -1186661984
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_14: 1419149978
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_15: -1555017317
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_16: 205776105
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_17: 1027283075
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_18: -698077749
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_19: -1213246878
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_2: -608016274
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_20: -928381293
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_21: 1585612889
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_22: -668228230
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_23: -415802024
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_24: -54485239
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_25: 344880455
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_26: 1186695321
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_27: -1871791047
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_28: -1696143526
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_29: 2054325287
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_3: -1779140782
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_30: 1394911386
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_31: -1582274366
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_32: 1750104264
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_33: -1181367905
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_34: -207912025
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_35: 243428873
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_36: 545355987
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_37: -243675979
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_38: 677987644
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_39: 1944945047
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_4: -987626035
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_40: 1206436480
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_41: -2014739447
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_42: 1163162184
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_43: 1708289642
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_44: 1151346508
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_45: 1166319459
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_46: -2139310199
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_47: -1942393356
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_48: 2046758607
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_49: 2005414510
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_5: -601029435
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_50: 1917827074
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_51: -303139873
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_52: -2034332613
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_53: 1545269446
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_54: 913652140
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_55: 1500091245
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_56: 800164266
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_57: -870236610
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_58: -2080737197
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_59: 161362271
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_6: 1569397784
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_60: 1654465395
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_61: 484629866
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_62: 630159231
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_63: -1653344716
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_64: 346491830
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_65: 1586975865
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_66: -1635487552
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_67: -217820110
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_68: 750971116
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_69: -176203312
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_7: -1897331645
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_8: 2074531108
+      Residential-Area-Tileset-Pixel-Art3_pixian_ai_9: -2026027037
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

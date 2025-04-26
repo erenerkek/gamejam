@@ -12,6 +12,7 @@ public class BackgroundController : MonoBehaviour
     void Start()
     {
         startPos = transform.position.x;
+        startPos = cam.transform.position.y;
 
     }
 

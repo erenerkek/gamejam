@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class Movement : MonoBehaviour
 {
     [Header("Hareket Ayarları")]
     public float moveSpeed = 10f;
