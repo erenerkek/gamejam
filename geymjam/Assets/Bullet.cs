@@ -9,7 +9,6 @@ public class Bullet : MonoBehaviour
     public Rigidbody2D rb;
     public GameObject impactEffect;
 
-    // Start is called before the first frame update
     void Start()
     {
         rb.velocity = transform.right * speed;
@@ -17,15 +16,21 @@ public class Bullet : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D hitInfo)
     {
-        Enemy enemy = hitInfo.GetComponent<Enemy>();
-
+        // Düşmana çarparsa hasar ver
+        EnemyHealth enemy = hitInfo.GetComponent<EnemyHealth>();
         if (enemy != null)
         {
             enemy.TakeDamage(damage);
         }
 
-        Instantiate(impactEffect, transform.position, transform.rotation);
+        // Impact Effecti oluştur
+        if (impactEffect != null)
+        {
+            GameObject impact = Instantiate(impactEffect, transform.position, transform.rotation);
+            Destroy(impact, 0.5f); // Efekti 0.5 saniyede yok et (istersen değiştirirsin)
+        }
 
+        // Mermiyi yok et
         Destroy(gameObject);
     }
 }

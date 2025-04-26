@@ -11,7 +11,7 @@ public class Player_Movement : MonoBehaviour
     public Animator animator;
 
     [SerializeField] private Rigidbody2D rb;
-    [SerializeField] private Transform groundCheck;
+    [SerializeField] private Transform groundCheck; 
     [SerializeField] private LayerMask groundLayer;
 
     [SerializeField] private Transform firePoint;
@@ -30,30 +30,36 @@ public class Player_Movement : MonoBehaviour
 
         animator.SetBool("IsGrounded", isGrounded);
 
+            // BURAYA EKLE!
+        Debug.Log("IsGrounded: " + isGrounded);
+
+        animator.SetFloat("Speed", Mathf.Abs(horizontal));
+
         // Jump input
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
             animator.SetBool("IsJumping", true);
+            isGrounded = false; // Yere basmadÄ±ÄŸÄ±nÄ± belirt
         }
 
         if (!isGrounded)
         {
             if (rb.velocity.y > 0.1f)
             {
-                // Yukarý doðru giderken Jump animasyonu
+                // Yukarï¿½ doï¿½ru giderken Jump animasyonu
                 animator.SetBool("IsJumping", true);
             }
             else if (rb.velocity.y <= 0)
             {
-                // Aþaðý düþmeye baþladýysa Fall tetikle
+                // Aï¿½aï¿½ï¿½ dï¿½ï¿½meye baï¿½ladï¿½ysa Fall tetikle
                 animator.SetBool("IsJumping", false);
-                animator.SetTrigger("IsFalling"); // Trigger'ý burada her zaman set et
+                animator.SetTrigger("IsFalling"); // Trigger'ï¿½ burada her zaman set et
             }
         }
         else if (isGrounded && rb.velocity.y <= 0f)
         {
-            // Yere indiðinde her þeyi sýfýrla
+            // Yere indiï¿½inde her ï¿½eyi sï¿½fï¿½rla
             animator.SetBool("IsJumping", false);
             animator.ResetTrigger("IsFalling");
         }
