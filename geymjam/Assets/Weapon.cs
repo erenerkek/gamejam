@@ -21,6 +21,14 @@ public class Weapon : MonoBehaviour
 
     void Shoot()
     {
-        Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+
+        Bullet bulletScript = bullet.GetComponent<Bullet>();
+
+        // Player saða mý bakýyor sola mý kontrol et
+        float direction = transform.localScale.x > 0 ? 1f : -1f;
+
+        bulletScript.shootDirection = new Vector2(direction, 0f);
     }
+
 }

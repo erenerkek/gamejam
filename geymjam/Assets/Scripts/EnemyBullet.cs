@@ -7,10 +7,11 @@ public class EnemyBullet : MonoBehaviour
     public Rigidbody2D rb;
     public GameObject impactEffect;
 
+    public Vector2 shootDirection = Vector2.left;  // Merminin gideceði yön
+
     void Start()
     {
-       rb.velocity = -  transform.right * speed;
-
+        rb.velocity = shootDirection * speed;  // shootDirection'a göre hýz ayarla
     }
 
     void OnTriggerEnter2D(Collider2D hitInfo)
