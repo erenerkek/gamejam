@@ -9,11 +9,9 @@ public class Bullet : MonoBehaviour
     public Rigidbody2D rb;
     public GameObject impactEffect;
 
-    public Vector2 shootDirection = Vector2.right; // default sağa
-
     void Start()
     {
-        rb.velocity = shootDirection * speed;
+        rb.velocity = transform.right * speed;
     }
 
     void OnTriggerEnter2D(Collider2D hitInfo)
