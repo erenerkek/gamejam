@@ -5,6 +5,8 @@ public class Weapon : MonoBehaviour
     public Transform firePoint;
     public GameObject bulletPrefab;
 
+
+
     public float fireCooldown = 1f; // Başlangıç fireCooldown
     private float nextFireTime = 0f;
 
@@ -14,7 +16,8 @@ public class Weapon : MonoBehaviour
     {
         // Player objesini bulup PlayerStats bileşenine erişiyoruz
         playerStats = GameObject.Find("Player").GetComponent<PlayerStats>();
-
+        
+        DontDestroyOnLoad(gameObject);
         if (playerStats != null)
         {
             fireCooldown = playerStats.attackCooldown;  // PlayerStats'tan fireCooldown alıyoruz
@@ -43,5 +46,7 @@ public class Weapon : MonoBehaviour
         float direction = transform.localScale.x > 0 ? 1f : -1f;
 
         bulletScript.shootDirection = new Vector2(direction, 0f);
+        
     }
+    
 }

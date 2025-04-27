@@ -316,6 +316,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firePoint: {fileID: 7119907514898279095}
   bulletPrefab: {fileID: 8995105747734953407, guid: b1d67fb72fdce4d4d91b635a2bda8d7b, type: 3}
+  gunshotSound: {fileID: 8300000, guid: 84664b0f7bf0b6d49b8e0f327eff1f49, type: 3}
   fireCooldown: 1
 --- !u!114 &2209773194107532656
 MonoBehaviour:
@@ -330,7 +331,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentHealth: 100
-  highestHealthReached: 100
+  maxHealth: 100
   attackCooldown: 1
   damage: 10
-  maxHealth: 100
