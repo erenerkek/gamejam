@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01fd26fa4b3c2fc4aa0b628468063022, type: 3}
   m_Name: PlayerStats
   m_EditorClassIdentifier: 
-  maxHealth: -20
-  damage: 50
-  fireCooldown: 0.79999995
+  maxHealth: 100
+  damage: 20
+  fireCooldown: 1

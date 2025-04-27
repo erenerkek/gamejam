@@ -10520,6 +10520,7 @@ GameObject:
   - component: {fileID: 871503783}
   - component: {fileID: 871503784}
   - component: {fileID: 871503785}
+  - component: {fileID: 871503786}
   m_Layer: 0
   m_Name: Door_lvl1
   m_TagString: Untagged
@@ -10673,6 +10674,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.975, y: 1.375}
   m_EdgeRadius: 0
+--- !u!114 &871503786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 871503780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 719f796348b077649998d44f874b250f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad: Level1 1
 --- !u!1 &881561068
 GameObject:
   m_ObjectHideFlags: 0
@@ -13707,6 +13721,7 @@ GameObject:
   - component: {fileID: 1057532056}
   - component: {fileID: 1057532055}
   - component: {fileID: 1057532057}
+  - component: {fileID: 1057532058}
   m_Layer: 0
   m_Name: Door_lvl2
   m_TagString: Untagged
@@ -13802,6 +13817,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1057532058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057532054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 719f796348b077649998d44f874b250f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad: Level2
 --- !u!1 &1200508084
 GameObject:
   m_ObjectHideFlags: 0

@@ -39465,7 +39465,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 79.69, y: -5.331135, z: -10}
+  m_LocalPosition: {x: -20.71, y: -5.331135, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -46918,7 +46918,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5381805909273923166, guid: dffb8c04ea7460f43b5bab146400f8a5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 79.69
+      value: -20.71
       objectReference: {fileID: 0}
     - target: {fileID: 5381805909273923166, guid: dffb8c04ea7460f43b5bab146400f8a5, type: 3}
       propertyPath: m_LocalPosition.y
@@ -48358,7 +48358,7 @@ Transform:
   m_GameObject: {fileID: 1896568697}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 79.69, y: -5.331135, z: -10}
+  m_LocalPosition: {x: -20.71, y: -5.331135, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -48585,6 +48585,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: mecha
       objectReference: {fileID: 0}
+    - target: {fileID: 6280962156720308811, guid: d19414d0b7747c14d86782361d879cbd, type: 3}
+      propertyPath: bulletPrefab
+      value: 
+      objectReference: {fileID: 8995105747734953407, guid: ea7bf4f9e7b5b7b4bb83ba53899d92f5, type: 3}
     m_RemovedComponents:
     - {fileID: 1657729503435718809, guid: d19414d0b7747c14d86782361d879cbd, type: 3}
     m_RemovedGameObjects: []
@@ -48665,6 +48669,10 @@ PrefabInstance:
       propertyPath: fireRate
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2012298413096888336, guid: 729d918c337b8e14997fdcb3b4805bbb, type: 3}
+      propertyPath: bulletPrefab
+      value: 
+      objectReference: {fileID: 8995105747734953407, guid: ea7bf4f9e7b5b7b4bb83ba53899d92f5, type: 3}
     - target: {fileID: 6440779959732136977, guid: 729d918c337b8e14997fdcb3b4805bbb, type: 3}
       propertyPath: m_Name
       value: Enemy
