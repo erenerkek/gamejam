@@ -2,6 +2,10 @@ using UnityEngine;
 
 public class Weapon : MonoBehaviour
 {
+
+    [Header("Ses Ayarları")]
+    public AudioClip gunshotSound; // Inspector'dan ses dosyası atanacak
+    private AudioSource audioSource; // Kodla otomatik eklenecek
     public Transform firePoint;
     public GameObject bulletPrefab;
 
@@ -9,6 +13,9 @@ public class Weapon : MonoBehaviour
     private float nextFireTime = 0f;
 
     private PlayerStats playerStats;  // PlayerStats referansı
+
+    
+
 
     void Start()
     {
@@ -23,6 +30,11 @@ public class Weapon : MonoBehaviour
         {
             Debug.LogError("PlayerStats bileşeni bulunamadı!");
         }
+        audioSource = gameObject.AddComponent<AudioSource>();
+        audioSource.playOnAwake = false; // Oyun başlangıcında çalmasın
+        audioSource.volume = 0.8f; // Ses seviyesi (0-1 arası)
+        DontDestroyOnLoad(gameObject);
+    
     }
 
     void Update()
@@ -43,5 +55,17 @@ public class Weapon : MonoBehaviour
         float direction = transform.localScale.x > 0 ? 1f : -1f;
 
         bulletScript.shootDirection = new Vector2(direction, 0f);
+
+        if (gunshotSound != null)
+        {
+            audioSource.PlayOneShot(gunshotSound);
+        }
+        else
+        {
+            Debug.LogWarning("Silah sesi atanmamış! Inspector'dan AudioClip ekle.");
+        }
+
+     
+
     }
 }

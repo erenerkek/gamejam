@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: playerStats
       value: 
       objectReference: {fileID: 11400000, guid: def0e6e44cdaed44e8010f80a6d8d06b, type: 2}
+    - target: {fileID: 393972335625570059, guid: 938c9fd8adf64a54a8627da68b22a807, type: 3}
+      propertyPath: gunshotSound
+      value: 
+      objectReference: {fileID: 8300000, guid: f04cbbe8aac7d684d8f3055e447f61fd, type: 3}
     - target: {fileID: 5381805909273923166, guid: 938c9fd8adf64a54a8627da68b22a807, type: 3}
       propertyPath: m_LocalPosition.x
       value: -31.09
