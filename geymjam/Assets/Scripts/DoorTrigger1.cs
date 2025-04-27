@@ -35,7 +35,14 @@ public class DoorTrigger : MonoBehaviour
 
     void LoadLevel()
     {
-        // Belirtilen scene'i yükler
+        // Mevcut karakteri yok et
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        if (player != null)
+        {
+            Destroy(player);  // Eski karakteri yok et
+        }
+
+        // Belirtilen sahneyi yükle
         SceneManager.LoadScene(sceneToLoad);
     }
 }

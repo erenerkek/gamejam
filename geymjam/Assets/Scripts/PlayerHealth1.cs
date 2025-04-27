@@ -55,6 +55,12 @@ public class PlayerHealth : MonoBehaviour
     void Die()
     {
         Debug.Log("Player died!");
+        // Mevcut karakteri yok et
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        if (player != null)
+        {
+            Destroy(player);  // Eski karakteri yok et
+        }
         SceneManager.LoadScene("Hub");
     }
 
