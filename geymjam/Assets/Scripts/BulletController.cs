@@ -1,22 +1,24 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class BulletController : MonoBehaviour
+public class ButtonHoverEffect : MonoBehaviour
 {
-  public int damage = 20; 
+    private Image buttonImage;
+    public Sprite normalSprite; // Beyaz sprite
+    public Sprite hoverSprite;  // Sarı sprite
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    void Start()
     {
-        if (collision.CompareTag("Player"))
-        {
-            Debug.Log("Mermi oyuncuya çarptı, hasar alındı!");
+        buttonImage = GetComponent<Image>(); // Butonun Image component'ini al
+    }
 
-            Destroy(gameObject);
-        }
-        else if (!collision.isTrigger) 
-        {
-            Destroy(gameObject);
-        }
+    public void OnPointerEnter()
+    {
+        buttonImage.sprite = hoverSprite; // Hover olduğunda sarı görseli al
+    }
+
+    public void OnPointerExit()
+    {
+        buttonImage.sprite = normalSprite; // Çıkıldığında beyaz görseli geri al
     }
 }
