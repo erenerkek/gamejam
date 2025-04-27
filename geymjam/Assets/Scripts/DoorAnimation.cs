@@ -1,41 +1,32 @@
 using UnityEngine;
 
-public class DoorAnimation : MonoBehaviour
+public class DoorController : MonoBehaviour
 {
-    public Animator doorAnimator;
+    private Animator animator;
+    private bool isOpen = false;
 
-    void Start()
+    private void Awake()
     {
-        // Kapı başlangıçta kapalı olsun
-        if (doorAnimator != null)
+        animator = GetComponent<Animator>();
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player") && !isOpen)
         {
-            doorAnimator.SetBool("isOpen", false);
-            Debug.Log("Kapı başlangıçta kapalı.");
-        }
-        else
-        {
-            Debug.LogError("DoorAnimator atanmamış! Lütfen Animator'ü kontrol et.");
+            Debug.Log("Player entered door trigger");
+            animator.SetBool("isIn", true);
+            isOpen = true;
         }
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerExit2D(Collider2D other)
     {
-        Debug.Log("Trigger'a giren: " + other.gameObject.name);
-        if (other.gameObject.layer == LayerMask.NameToLayer("Player"))
+        if (other.CompareTag("Player") && isOpen)
         {
-            Debug.Log("Oyuncu tespit edildi! (Layer: Player)");
-            doorAnimator.SetBool("isOpen", true);
-            Debug.Log("Animator isOpen durumu: " + doorAnimator.GetBool("isOpen"));
-        }
-    }
-
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.gameObject.layer == LayerMask.NameToLayer("Player"))
-        {
-            Debug.Log("Oyuncu çıktı! (Layer: Player)");
-            doorAnimator.SetBool("isOpen", false);
-            Debug.Log("Animator isOpen durumu: " + doorAnimator.GetBool("isOpen"));
+            Debug.Log("Player exited door trigger");
+            animator.SetBool("isIn", false);
+            isOpen = false;
         }
     }
 }
