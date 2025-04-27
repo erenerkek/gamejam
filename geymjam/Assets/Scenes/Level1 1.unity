@@ -39465,7 +39465,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 34.49, y: -5.331135, z: -10}
+  m_LocalPosition: {x: 79.69, y: -5.331135, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -46811,7 +46811,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea740d793ecf0d0449d474cd1fa92842, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
+  playerStats: {fileID: 11400000, guid: def0e6e44cdaed44e8010f80a6d8d06b, type: 2}
 --- !u!1 &963799269
 GameObject:
   m_ObjectHideFlags: 0
@@ -46905,6 +46905,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 393972335625570059, guid: dffb8c04ea7460f43b5bab146400f8a5, type: 3}
+      propertyPath: playerStats
+      value: 
+      objectReference: {fileID: 11400000, guid: def0e6e44cdaed44e8010f80a6d8d06b, type: 2}
+    - target: {fileID: 393972335625570059, guid: dffb8c04ea7460f43b5bab146400f8a5, type: 3}
       propertyPath: fireCooldown
       value: 1
       objectReference: {fileID: 0}
@@ -46914,7 +46918,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5381805909273923166, guid: dffb8c04ea7460f43b5bab146400f8a5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 34.49
+      value: 79.69
       objectReference: {fileID: 0}
     - target: {fileID: 5381805909273923166, guid: dffb8c04ea7460f43b5bab146400f8a5, type: 3}
       propertyPath: m_LocalPosition.y
@@ -47233,7 +47237,7 @@ MonoBehaviour:
   bossFightTarget: {fileID: 918825683}
   bossHealthBarUI: {fileID: 0}
   invisibleWall: {fileID: 0}
-  cameraTransitionSpeed: 2
+  cameraTransitionSpeed: 1.4
 --- !u!61 &1331884564
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -48354,7 +48358,7 @@ Transform:
   m_GameObject: {fileID: 1896568697}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 34.49, y: -5.331135, z: -10}
+  m_LocalPosition: {x: 79.69, y: -5.331135, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -48608,6 +48612,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
+  playerStats: {fileID: 11400000, guid: def0e6e44cdaed44e8010f80a6d8d06b, type: 2}
 --- !u!1001 &1636544636968097318
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48687,3 +48692,7 @@ SceneRoots:
   - {fileID: 1125120253}
   - {fileID: 1333027354180893009}
   - {fileID: 1331884562}
+  - {fileID: 1608286509}
+  - {fileID: 254165331}
+  - {fileID: 428557093}
+  - {fileID: 1475263219}

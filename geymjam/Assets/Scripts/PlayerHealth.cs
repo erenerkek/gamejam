@@ -2,29 +2,23 @@ using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
 {
-    public int maxHealth = 100;
-    private int currentHealth;
-
-    void Start()
-    {
-        currentHealth = maxHealth;
-    }
+    public PlayerStats playerStats;
 
     public void TakeDamage(int amount)
     {
-        currentHealth -= amount;
-        Debug.Log("Player Health: " + currentHealth);
+        playerStats.maxHealth -= amount; // Hasar alıyoruz
 
-        if (currentHealth <= 0)
+        if (playerStats.maxHealth <= 0)
         {
-            Die();
+            Die();  // Ölünce seçim ekranı açılacak
         }
     }
 
     void Die()
     {
+        // Seçim ekranı burada devreye girecek
         Debug.Log("Player died!");
-        // Burada istersen ölüm animasyonu, sahne reset gibi şeyler yapabilirsin
-        Destroy(gameObject); // Şu anlık ölünce kendimizi yok ediyoruz
+        Destroy(gameObject); // Oyuncu nesnesini yok et
+        // Burada GUI'yi tetikleyebilirsin.
     }
 }

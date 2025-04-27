@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class Weapon : MonoBehaviour
 {
+    public PlayerStats playerStats; // Oyuncunun istatistiklerini alÄ±r
     public Transform firePoint;
     public GameObject bulletPrefab;
 
-    public float fireCooldown = 1f; // Kaç saniyede 1 kere ateþ edebilir
+    public float fireCooldown => playerStats.fireCooldown ; // Kaï¿½ saniyede 1 kere ateï¿½ edebilir
     private float nextFireTime = 0f;
 
     void Update()
@@ -25,7 +26,7 @@ public class Weapon : MonoBehaviour
 
         Bullet bulletScript = bullet.GetComponent<Bullet>();
 
-        // Player saða mý bakýyor sola mý kontrol et
+        // Player saï¿½a mï¿½ bakï¿½yor sola mï¿½ kontrol et
         float direction = transform.localScale.x > 0 ? 1f : -1f;
 
         bulletScript.shootDirection = new Vector2(direction, 0f);

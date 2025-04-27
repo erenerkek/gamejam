@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 5766638798420734106}
   - component: {fileID: 5274350678615247444}
   - component: {fileID: -6851352209985911298}
-  m_Layer: 0
-  m_Name: bullet
+  m_Layer: 11
+  m_Name: Bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -161,7 +161,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0d67f40accee6a4486cac36cdd315d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerStats: {fileID: 11400000, guid: def0e6e44cdaed44e8010f80a6d8d06b, type: 2}
   speed: 20
-  damage: 40
   rb: {fileID: 5766638798420734106}
   impactEffect: {fileID: 1473625048454486, guid: 85fa9d6a87612e947aed1de5f027954c, type: 3}
+  shootDirection: {x: 1, y: 0}
