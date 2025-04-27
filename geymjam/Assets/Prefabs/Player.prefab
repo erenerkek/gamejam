@@ -78,6 +78,7 @@ GameObject:
   - component: {fileID: 6260090595072383260}
   - component: {fileID: 1375712564259501906}
   - component: {fileID: 393972335625570059}
+  - component: {fileID: 2209773194107532656}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -313,6 +314,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a9fee8aa1f0fcc4693a2875f0306eb0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerStats: {fileID: 0}
   firePoint: {fileID: 7119907514898279095}
   bulletPrefab: {fileID: 8995105747734953407, guid: b1d67fb72fdce4d4d91b635a2bda8d7b, type: 3}
+  fireCooldown: 1
+--- !u!114 &2209773194107532656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7097445730212506412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01fd26fa4b3c2fc4aa0b628468063022, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentHealth: 100
+  highestHealthReached: 100
+  attackCooldown: 1
+  damage: 10
+  maxHealth: 100

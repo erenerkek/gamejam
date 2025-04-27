@@ -1,25 +1,33 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "PlayerStats", menuName = "Player/Stats")]
-public class PlayerStats : ScriptableObject
+public class PlayerStats : MonoBehaviour
 {
-    public int maxHealth = 100;     // Başlangıç canı
-    public int damage = 10;         // Başlangıç hasarı
-    public float fireCooldown = 1f;  // Başlangıç saldırı hızı
+    public int currentHealth;
+    public int highestHealthReached = 100; // Başlangıç sağlık değeri
+    public float attackCooldown = 1f; // Başlangıç attack cooldown (ateş etme hızı)
+    public int damage = 10; // Başlangıç hasarı
+    public int maxHealth = 100; // Yeni eklenen maxHealth
 
-
-    public void IncreaseHealth(int amount)
+    // Bu değerleri respawn sırasında kullanacağız
+    public void ResetStatsOnRespawn()
     {
-        maxHealth += amount;   // Can arttırma
+        currentHealth = highestHealthReached; // Canı en yüksek sağlık değerine eşitle
     }
 
-    public void IncreaseDamage(int amount)
+    // Boss öldüğünde statları geliştirme
+    public void IncreaseStatsAfterBossKill()
     {
-        damage += amount;      // Hasar arttırma
-    }
+        // Örnek: Boss öldüğünde cooldown artıyor
+        attackCooldown -= 0.2f; // Cooldown azalarak daha hızlı ateş etmesini sağlıyoruz
 
-    public void DecreaseFireCoolDown(float amount)
-    {
-        fireCooldown -= amount; // Saldırı hızı arttırma
+        if (attackCooldown < 0.2f) // Minimum cooldown'u belirliyoruz
+        {
+            attackCooldown = 0.2f; // Minimum cooldown 0.2 saniye
+        }
+
+        highestHealthReached += 20; // En yüksek sağlık artıyor
+        maxHealth = highestHealthReached; // Max sağlık artık highestHealthReached ile eşit olacak
+
+        damage += 5; // Attack damage artıyor
     }
 }

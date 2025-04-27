@@ -23,21 +23,20 @@ public class PlayerHealth : MonoBehaviour
 
     public void TakeDamage(int amount)
     {
-        currentHealth -= amount;
+        currentHealth -= amount; // Hasar al
         Debug.Log("Player Health: " + currentHealth);
 
         if (currentHealth <= 0)
         {
-            Die();
+            Die(); // Eğer sağlık sıfırlanırsa, öl
         }
     }
 
     void Die()
     {
         Debug.Log("Player died!");
-        // Burada istersen ölüm animasyonu, sahne reset gibi şeyler yapabilirsin
-        Destroy(gameObject); // Şu anlık ölünce kendimizi yok ediyoruz
-        SceneManager.LoadScene("Hub");
+        // Ölüm işlemleri burada yapılacak
+        SceneManager.LoadScene("Hub"); // Hub sahnesine geri dönüyoruz
     }
 
     // Yeniden doğma fonksiyonu
@@ -45,7 +44,9 @@ public class PlayerHealth : MonoBehaviour
     {
         if (playerStats != null)
         {
-            currentHealth = playerStats.maxHealth;  // Max canı PlayerStats'tan al
+            // Yeni en yüksek sağlık değeriyle yeniden doğ
+            currentHealth = playerStats.highestHealthReached;
+            Debug.Log("Player health reset to: " + currentHealth); // Yeni can değeri loglanacak
         }
     }
 }
