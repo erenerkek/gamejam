@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8636377778212381444}
   - component: {fileID: 5235205379809880393}
   - component: {fileID: 2175055100492594389}
+  - component: {fileID: 3446445578830991929}
   m_Layer: 0
   m_Name: Door_lvl1
   m_TagString: Untagged
@@ -165,3 +166,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bcc612ee10a088468f90fbf2131a000, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3446445578830991929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3347946669202555087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 719f796348b077649998d44f874b250f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad: Level1 1

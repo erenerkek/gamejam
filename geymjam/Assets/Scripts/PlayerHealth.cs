@@ -1,24 +1,51 @@
 using UnityEngine;
+using UnityEngine.SceneManagement; // Sahne yönetimi için gerekli
 
 public class PlayerHealth : MonoBehaviour
 {
-    public PlayerStats playerStats;
+    private int currentHealth;
+    private PlayerStats playerStats;  // PlayerStats referansı
+
+    void Start()
+    {
+        // PlayerStats'i bul ve maxHealth'i al
+        playerStats = GetComponent<PlayerStats>();
+        
+        if (playerStats != null)
+        {
+            currentHealth = playerStats.maxHealth;  // maxHealth'i PlayerStats'tan al
+        }
+        else
+        {
+            Debug.LogError("PlayerStats script not found on Player!");
+        }
+    }
 
     public void TakeDamage(int amount)
     {
-        playerStats.maxHealth -= amount; // Hasar alıyoruz
+        currentHealth -= amount;
+        Debug.Log("Player Health: " + currentHealth);
 
-        if (playerStats.maxHealth <= 0)
+        if (currentHealth <= 0)
         {
-            Die();  // Ölünce seçim ekranı açılacak
+            Die();
         }
     }
 
     void Die()
     {
-        // Seçim ekranı burada devreye girecek
         Debug.Log("Player died!");
-        Destroy(gameObject); // Oyuncu nesnesini yok et
-        // Burada GUI'yi tetikleyebilirsin.
+        // Burada istersen ölüm animasyonu, sahne reset gibi şeyler yapabilirsin
+        Destroy(gameObject); // Şu anlık ölünce kendimizi yok ediyoruz
+        SceneManager.LoadScene("Hub");
+    }
+
+    // Yeniden doğma fonksiyonu
+    public void ResetHealth()
+    {
+        if (playerStats != null)
+        {
+            currentHealth = playerStats.maxHealth;  // Max canı PlayerStats'tan al
+        }
     }
 }
