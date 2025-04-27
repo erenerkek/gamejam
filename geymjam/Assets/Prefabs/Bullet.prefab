@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5274350678615247444}
   - component: {fileID: -6851352209985911298}
   m_Layer: 0
-  m_Name: bullet
+  m_Name: Bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -164,4 +164,5 @@ MonoBehaviour:
   speed: 20
   damage: 40
   rb: {fileID: 5766638798420734106}
-  impactEffect: {fileID: 1473625048454486, guid: 85fa9d6a87612e947aed1de5f027954c, type: 3}
+  impactEffect: {fileID: 0}
+  shootDirection: {x: 1, y: 0}

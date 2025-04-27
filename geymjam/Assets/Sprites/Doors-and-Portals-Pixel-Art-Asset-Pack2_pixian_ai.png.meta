@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -101,11 +101,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 36
-        y: 327
+        y: 326
         width: 40
-        height: 55
+        height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -122,11 +122,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 79
-        y: 327
+        y: 326
         width: 40
-        height: 55
+        height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -143,11 +143,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 123
-        y: 327
-        width: 39
-        height: 55
+        y: 326
+        width: 40
+        height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -163,12 +163,12 @@ TextureImporter:
       name: Doors-and-Portals-Pixel-Art-Asset-Pack2_pixian_ai_3
       rect:
         serializedVersion: 2
-        x: 167
-        y: 327
-        width: 39
-        height: 55
+        x: 166
+        y: 326
+        width: 40
+        height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -185,11 +185,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 210
-        y: 327
-        width: 39
-        height: 55
+        y: 326
+        width: 40
+        height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -205,12 +205,12 @@ TextureImporter:
       name: Doors-and-Portals-Pixel-Art-Asset-Pack2_pixian_ai_5
       rect:
         serializedVersion: 2
-        x: 254
-        y: 327
-        width: 39
-        height: 55
+        x: 253
+        y: 326
+        width: 41
+        height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -227,11 +227,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 319
-        y: 327
-        width: 39
-        height: 55
+        y: 326
+        width: 40
+        height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -247,12 +247,12 @@ TextureImporter:
       name: Doors-and-Portals-Pixel-Art-Asset-Pack2_pixian_ai_7
       rect:
         serializedVersion: 2
-        x: 363
-        y: 327
-        width: 39
-        height: 55
+        x: 362
+        y: 326
+        width: 40
+        height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -269,11 +269,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 406
-        y: 327
-        width: 39
-        height: 55
+        y: 326
+        width: 40
+        height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -289,12 +289,12 @@ TextureImporter:
       name: Doors-and-Portals-Pixel-Art-Asset-Pack2_pixian_ai_9
       rect:
         serializedVersion: 2
-        x: 450
+        x: 449
         y: 326
-        width: 39
-        height: 56
+        width: 40
+        height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -313,9 +313,9 @@ TextureImporter:
         x: 492
         y: 326
         width: 41
-        height: 56
+        height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -334,9 +334,9 @@ TextureImporter:
         x: 536
         y: 326
         width: 40
-        height: 56
+        height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -357,7 +357,7 @@ TextureImporter:
         width: 40
         height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -378,7 +378,7 @@ TextureImporter:
         width: 40
         height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -396,10 +396,10 @@ TextureImporter:
         serializedVersion: 2
         x: 123
         y: 226
-        width: 39
+        width: 40
         height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -415,12 +415,12 @@ TextureImporter:
       name: Doors-and-Portals-Pixel-Art-Asset-Pack2_pixian_ai_15
       rect:
         serializedVersion: 2
-        x: 167
+        x: 166
         y: 226
-        width: 39
+        width: 41
         height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -438,10 +438,10 @@ TextureImporter:
         serializedVersion: 2
         x: 210
         y: 226
-        width: 39
+        width: 40
         height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -457,12 +457,12 @@ TextureImporter:
       name: Doors-and-Portals-Pixel-Art-Asset-Pack2_pixian_ai_17
       rect:
         serializedVersion: 2
-        x: 254
+        x: 253
         y: 226
-        width: 39
+        width: 41
         height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -480,10 +480,10 @@ TextureImporter:
         serializedVersion: 2
         x: 319
         y: 226
-        width: 39
+        width: 40
         height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -499,12 +499,12 @@ TextureImporter:
       name: Doors-and-Portals-Pixel-Art-Asset-Pack2_pixian_ai_19
       rect:
         serializedVersion: 2
-        x: 363
+        x: 362
         y: 226
-        width: 39
+        width: 40
         height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -522,10 +522,10 @@ TextureImporter:
         serializedVersion: 2
         x: 406
         y: 226
-        width: 39
+        width: 40
         height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -541,12 +541,12 @@ TextureImporter:
       name: Doors-and-Portals-Pixel-Art-Asset-Pack2_pixian_ai_21
       rect:
         serializedVersion: 2
-        x: 450
+        x: 449
         y: 226
-        width: 39
+        width: 40
         height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -562,12 +562,12 @@ TextureImporter:
       name: Doors-and-Portals-Pixel-Art-Asset-Pack2_pixian_ai_22
       rect:
         serializedVersion: 2
-        x: 493
+        x: 492
         y: 226
-        width: 40
+        width: 41
         height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -588,7 +588,7 @@ TextureImporter:
         width: 40
         height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -607,9 +607,9 @@ TextureImporter:
         x: 36
         y: 125
         width: 40
-        height: 56
+        height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -626,11 +626,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 80
-        y: 126
+        y: 125
         width: 39
-        height: 55
+        height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -648,10 +648,10 @@ TextureImporter:
         serializedVersion: 2
         x: 123
         y: 125
-        width: 39
-        height: 56
+        width: 40
+        height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -667,12 +667,12 @@ TextureImporter:
       name: Doors-and-Portals-Pixel-Art-Asset-Pack2_pixian_ai_27
       rect:
         serializedVersion: 2
-        x: 167
-        y: 126
-        width: 39
-        height: 55
+        x: 166
+        y: 125
+        width: 40
+        height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -689,11 +689,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 210
-        y: 126
-        width: 39
-        height: 55
+        y: 125
+        width: 40
+        height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -709,12 +709,12 @@ TextureImporter:
       name: Doors-and-Portals-Pixel-Art-Asset-Pack2_pixian_ai_29
       rect:
         serializedVersion: 2
-        x: 254
-        y: 126
-        width: 39
-        height: 55
+        x: 253
+        y: 125
+        width: 41
+        height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -731,11 +731,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 319
-        y: 126
-        width: 39
-        height: 55
+        y: 125
+        width: 40
+        height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -751,12 +751,12 @@ TextureImporter:
       name: Doors-and-Portals-Pixel-Art-Asset-Pack2_pixian_ai_31
       rect:
         serializedVersion: 2
-        x: 363
-        y: 126
-        width: 39
-        height: 55
+        x: 362
+        y: 125
+        width: 40
+        height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -773,11 +773,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 406
-        y: 126
-        width: 39
-        height: 55
+        y: 125
+        width: 40
+        height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -793,12 +793,12 @@ TextureImporter:
       name: Doors-and-Portals-Pixel-Art-Asset-Pack2_pixian_ai_33
       rect:
         serializedVersion: 2
-        x: 450
-        y: 126
-        width: 39
-        height: 55
+        x: 449
+        y: 125
+        width: 40
+        height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -814,12 +814,12 @@ TextureImporter:
       name: Doors-and-Portals-Pixel-Art-Asset-Pack2_pixian_ai_34
       rect:
         serializedVersion: 2
-        x: 493
-        y: 126
-        width: 40
-        height: 55
+        x: 492
+        y: 125
+        width: 41
+        height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -836,11 +836,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 536
-        y: 126
+        y: 125
         width: 40
-        height: 55
+        height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -861,7 +861,7 @@ TextureImporter:
         width: 40
         height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -882,7 +882,7 @@ TextureImporter:
         width: 41
         height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -900,10 +900,10 @@ TextureImporter:
         serializedVersion: 2
         x: 123
         y: 25
-        width: 39
+        width: 40
         height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -919,12 +919,12 @@ TextureImporter:
       name: Doors-and-Portals-Pixel-Art-Asset-Pack2_pixian_ai_39
       rect:
         serializedVersion: 2
-        x: 167
+        x: 166
         y: 25
-        width: 39
+        width: 40
         height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -941,11 +941,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 210
-        y: 25
-        width: 39
-        height: 56
+        y: 24
+        width: 40
+        height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -961,12 +961,12 @@ TextureImporter:
       name: Doors-and-Portals-Pixel-Art-Asset-Pack2_pixian_ai_41
       rect:
         serializedVersion: 2
-        x: 254
+        x: 253
         y: 25
-        width: 39
+        width: 40
         height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -984,10 +984,10 @@ TextureImporter:
         serializedVersion: 2
         x: 319
         y: 25
-        width: 39
+        width: 40
         height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1003,12 +1003,12 @@ TextureImporter:
       name: Doors-and-Portals-Pixel-Art-Asset-Pack2_pixian_ai_43
       rect:
         serializedVersion: 2
-        x: 363
+        x: 362
         y: 25
-        width: 39
+        width: 40
         height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1026,10 +1026,10 @@ TextureImporter:
         serializedVersion: 2
         x: 406
         y: 25
-        width: 39
+        width: 40
         height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1045,12 +1045,12 @@ TextureImporter:
       name: Doors-and-Portals-Pixel-Art-Asset-Pack2_pixian_ai_45
       rect:
         serializedVersion: 2
-        x: 450
+        x: 449
         y: 25
-        width: 39
+        width: 40
         height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1071,7 +1071,7 @@ TextureImporter:
         width: 40
         height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1092,7 +1092,7 @@ TextureImporter:
         width: 40
         height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
