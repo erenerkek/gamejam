@@ -3,31 +3,65 @@ using UnityEngine;
 public class PlayerStats : MonoBehaviour
 {
     public int currentHealth;
-    public int highestHealthReached = 100; // Başlangıç sağlık değeri
-    public float attackCooldown = 1f; // Başlangıç attack cooldown (ateş etme hızı)
-    public int damage = 10; // Başlangıç hasarı
-    public int maxHealth = 100; // Yeni eklenen maxHealth
+    public int maxHealth = 100;
+    public float attackCooldown = 1f;
+    public int damage = 10;
 
-    // Bu değerleri respawn sırasında kullanacağız
-    public void ResetStatsOnRespawn()
+    private void Awake()
     {
-        currentHealth = highestHealthReached; // Canı en yüksek sağlık değerine eşitle
+        LoadStats(); // Oyuncu doğduğunda kayıtlı değerleri oku
     }
 
-    // Boss öldüğünde statları geliştirme
+    public void ResetHealth()
+    {
+        currentHealth = maxHealth;
+    }
+
     public void IncreaseStatsAfterBossKill()
     {
-        // Örnek: Boss öldüğünde cooldown artıyor
-        attackCooldown -= 0.2f; // Cooldown azalarak daha hızlı ateş etmesini sağlıyoruz
+        maxHealth += 20;
+        damage += 20;
+        attackCooldown -= 0.2f;
 
-        if (attackCooldown < 0.2f) // Minimum cooldown'u belirliyoruz
+        if (attackCooldown < 0.2f)
         {
-            attackCooldown = 0.2f; // Minimum cooldown 0.2 saniye
+            attackCooldown = 0.2f;
         }
 
-        highestHealthReached += 20; // En yüksek sağlık artıyor
-        maxHealth = highestHealthReached; // Max sağlık artık highestHealthReached ile eşit olacak
+        SaveStats(); // Boss öldürebilince değerleri kaydet
+    }
 
-        damage += 5; // Attack damage artıyor
+    public void SaveStats()
+    {
+        PlayerPrefs.SetInt("MaxHealth", maxHealth);
+        PlayerPrefs.SetInt("Damage", damage);
+        PlayerPrefs.SetFloat("AttackCooldown", attackCooldown);
+        PlayerPrefs.Save();
+    }
+
+    public void LoadStats()
+    {
+        if (PlayerPrefs.HasKey("MaxHealth"))
+        {
+            maxHealth = PlayerPrefs.GetInt("MaxHealth");
+        }
+
+        if (PlayerPrefs.HasKey("Damage"))
+        {
+            damage = PlayerPrefs.GetInt("Damage");
+        }
+
+        if (PlayerPrefs.HasKey("AttackCooldown"))
+        {
+            attackCooldown = PlayerPrefs.GetFloat("AttackCooldown");
+        }
+
+        currentHealth = maxHealth;
+    }
+
+    public void ResetStats()
+    {
+        // İstersen sıfırlama için
+        PlayerPrefs.DeleteAll();
     }
 }

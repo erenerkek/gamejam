@@ -1,19 +1,27 @@
 using UnityEngine;
-using UnityEngine.SceneManagement; // Sahne yönetimi için gerekli
-
+using UnityEngine.SceneManagement;
+using System.Collections;
 public class PlayerHealth : MonoBehaviour
 {
     private int currentHealth;
-    private PlayerStats playerStats;  // PlayerStats referansı
+    private PlayerStats playerStats;
+    private SpriteRenderer spriteRenderer; 
+    private Color originalColor;
+
 
     void Start()
     {
-        // PlayerStats'i bul ve maxHealth'i al
         playerStats = GetComponent<PlayerStats>();
         
+        spriteRenderer = GetComponent<SpriteRenderer>(); // SpriteRenderer'ı bul
+        if (spriteRenderer != null)
+        {
+            originalColor = spriteRenderer.color; // Orijinal rengi kaydet
+        }
+
         if (playerStats != null)
         {
-            currentHealth = playerStats.maxHealth;  // maxHealth'i PlayerStats'tan al
+            currentHealth = playerStats.maxHealth;
         }
         else
         {
@@ -23,30 +31,40 @@ public class PlayerHealth : MonoBehaviour
 
     public void TakeDamage(int amount)
     {
-        currentHealth -= amount; // Hasar al
+        currentHealth -= amount;
         Debug.Log("Player Health: " + currentHealth);
+        
+         if (spriteRenderer != null)
+        {
+            StartCoroutine(DamageFlash()); // Hasar aldığında renk değiştir
+        }
 
         if (currentHealth <= 0)
         {
-            Die(); // Eğer sağlık sıfırlanırsa, öl
+            Die();
         }
+    }
+
+    private IEnumerator DamageFlash()
+    {
+        spriteRenderer.color = Color.red; // Kırmızı yapabilirsin veya Color.white (beyaz) da olur
+        yield return new WaitForSeconds(0.5f); // 0.5 saniye bekle
+        spriteRenderer.color = originalColor; // Eski renge geri dön
     }
 
     void Die()
     {
         Debug.Log("Player died!");
-        // Ölüm işlemleri burada yapılacak
-        SceneManager.LoadScene("Hub"); // Hub sahnesine geri dönüyoruz
+        SceneManager.LoadScene("Hub");
     }
 
-    // Yeniden doğma fonksiyonu
     public void ResetHealth()
     {
         if (playerStats != null)
-        {
-            // Yeni en yüksek sağlık değeriyle yeniden doğ
-            currentHealth = playerStats.highestHealthReached;
-            Debug.Log("Player health reset to: " + currentHealth); // Yeni can değeri loglanacak
-        }
+    {
+        playerStats.LoadStats(); // 🔥 PlayerPrefs'ten güncel değerleri çek
+        currentHealth = playerStats.maxHealth; // 🔥 Güncel maxHealth'ten canı doldur
     }
+    }
+
 }
